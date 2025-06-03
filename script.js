@@ -150,8 +150,13 @@ function setTheme(theme) {
     localStorage.setItem('theme', theme);
 }
 
-const savedTheme = localStorage.getItem('theme') || 'light';
-setTheme(savedTheme);
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+    setTheme(savedTheme);
+} else {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setTheme(prefersDark ? 'dark' : 'light');
+}
 
 themeToggle.addEventListener('click', () => {
     const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
