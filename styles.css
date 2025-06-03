@@ -1,16 +1,16 @@
 :root {
-    /* Light (Claude-style) palette */
-    --primary-color: #2d3436;
-    --secondary-color: #0984e3;
-    --text-color: #2d3436;
-    --background-color: #ffffff;
-    --accent-color: #74b9ff;
-    --hero-gradient: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+    /* Light (Claude.ai inspired) palette */
+    --primary-color: #353e55;
+    --secondary-color: #6255f6;
+    --text-color: #353e55;
+    --background-color: #f8f9fb;
+    --accent-color: #aba3ff;
+    --hero-gradient: linear-gradient(135deg, #ffffff 0%, #f0f2fe 100%);
     --card-background: #ffffff;
     --navbar-bg: rgba(255, 255, 255, 0.95);
-    --footer-bg: #2d3436;
+    --footer-bg: #353e55;
     --button-text-color: #ffffff;
-    --tag-background: #e9ecef;
+    --tag-background: #e8e8fc;
 }
 
 body.dark-mode {
