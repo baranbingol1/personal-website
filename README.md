@@ -9,3 +9,4 @@ My personal website showcasing my research projects and professional experience 
 - JavaScript
 - Font Awesome for icons
 - Light/Dark theme toggle with persistent preference
+- Detects user's preferred color scheme on first visit
