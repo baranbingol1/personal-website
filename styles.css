@@ -8,6 +8,8 @@
     --hero-gradient: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
     --card-background: #ffffff;
     --navbar-bg: rgba(255, 255, 255, 0.95);
+    --footer-bg: #2d3436;
+    --button-text-color: #ffffff;
 }
 
 body.dark-mode {
@@ -20,6 +22,8 @@ body.dark-mode {
     --hero-gradient: linear-gradient(135deg, #181818 0%, #121212 100%);
     --card-background: #1e1e1e;
     --navbar-bg: #181818;
+    --footer-bg: #181818;
+    --button-text-color: #ffffff;
 }
 
 * {
@@ -285,8 +289,8 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem 1rem;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--secondary-color, #1db954);
+    color: var(--button-text-color, #ffffff);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -354,7 +358,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--footer-bg);
     color: white;
     padding: 2rem 0;
     text-align: center;
