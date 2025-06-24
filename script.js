@@ -34,6 +34,27 @@ window.addEventListener('scroll', () => {
 // Research projects data
 const researchProjects = [
     {
+        title: "TÜDÜM - Turkish Large Reasoning Model",
+        description: "Created one of the first Turkish Large Reasoning Model called TÜDÜM.",
+        achievements: [
+            "Developed and trained a large-scale Turkish language model",
+            "Focused on enhancing reasoning capabilities in Turkish NLP"
+        ],
+        links: [
+            {
+                text: "HuggingFace",
+                url: "https://huggingface.co/barandinho/TDM-8b-v0.1",
+                icon: "hf-icon" // Assuming you have a way to display this or will add one
+            },
+            {
+                text: "Technical Blog Post",
+                url: "https://baranbingol1.github.io/2025/06/18/tdm.html",
+                icon: "fas fa-blog"
+            }
+        ],
+        tags: ["LLM", "NLP", "Turkish AI", "Deep Learning"]
+    },
+    {
         title: "Hittite Cuneiform Tablet Reader",
         description: "Developed an AI system to automatically transcribe Hittite cuneiform tablets and build a syllable dictionary.",
         achievements: [
@@ -64,22 +85,6 @@ const researchProjects = [
             }
         ],
         tags: ["Computer Vision", "Deep Learning", "Face Detection"]
-    },
-    {
-        title: "IMDB Top 250 Movies Sentiment Analysis",
-        description: "Conducted sentiment analysis on IMDB Top 250 Movies quotes, contributing to cross-disciplinary academic research.",
-        achievements: [
-            "Analyzed sentiment patterns in top-rated movie quotes",
-            "Research published in academic journal"
-        ],
-        links: [
-            {
-                text: "Read Paper",
-                url: "https://dergipark.org.tr/en/pub/veri/issue/81532/1285391",
-                icon: "fas fa-file-alt"
-            }
-        ],
-        tags: ["NLP", "Sentiment Analysis", "Data Science"]
     }
 ];
 
