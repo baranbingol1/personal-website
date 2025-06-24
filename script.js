@@ -42,11 +42,6 @@ const researchProjects = [
         ],
         links: [
             {
-                text: "HuggingFace",
-                url: "https://huggingface.co/barandinho/TDM-8b-v0.1",
-                icon: "hf-icon" // Assuming you have a way to display this or will add one
-            },
-            {
                 text: "Technical Blog Post",
                 url: "https://baranbingol1.github.io/2025/06/18/tdm.html",
                 icon: "fas fa-blog"
